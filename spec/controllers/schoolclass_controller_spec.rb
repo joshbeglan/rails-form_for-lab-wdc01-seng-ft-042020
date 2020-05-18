@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-RSpec.describe SchoolclassController, type: :controller do
+RSpec.describe SchoolClassesController, type: :controller do
 
 end

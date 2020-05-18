@@ -1,3 +1,7 @@
 <%= @student.first_name %> <%= @student.last_name %><br><br>
 
 <%= link_to "Edit this student", edit_student_path %>
+
+<%= form_tag student_path(@student), method: "delete" do %>
+    <%= submit_tag "Delete this student" %>
+<% end %>

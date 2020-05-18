@@ -7,6 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Student.destroy_all
-
+SchoolClass.destroy_all
 mert = Student.create(first_name: "Mert", last_name: "OZ")
 josh = Student.create(first_name: "Josh", last_name: "Beglan")
+math = SchoolClass.create(title: "Math", room_number: 202)
+coding = SchoolClass.create(title: "Coding", room_number: 404)
